@@ -20,10 +20,10 @@ class MyApp extends StatelessWidget {
 
 class TestScreen extends StatefulWidget {
   @override
-  TextState createState() => TextState();
+  TestState createState() => TestState();
 }
 
-class TextState extends State<TestScreen> {
+class TestState extends State<TestScreen> {
   final controller = TextEditingController();
   int textCounter = 0;
 
